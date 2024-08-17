@@ -11,6 +11,7 @@ const dataset=process.env.NEXT_PUBLIC_SANITY_DATASET!;
     dataset: dataset,
     title: 'Sanity Studio',
     apiVersion: '2021-03-25',
+    cdn: 'https://cdn.sanity.io',
 
     plugins: [deskTool()],
 
